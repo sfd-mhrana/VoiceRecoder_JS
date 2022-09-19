@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Voice Recording App</h1>
+        
+        <audio id="recorder" muted hidden></audio>
+        <div>
+            <button id="start">Record</button>
+            <button id="stop">Stop Record</button>
+        </div>
+        <audio id="player" controls></audio>
+        <a id="saverecord" style="cursor: pointer;">Saved Recording</a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/5426544d2a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
